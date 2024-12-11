@@ -1,0 +1,743 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+    height: 70px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/*box2 */
+
+.nav-location{
+    margin: 5px 2px,5px,0px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#p1{
+    color:white;
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 1rem;
+
+}
+#p2{
+    font-size: 0.95rem;
+    margin-left: 0.25rem;
+    font-weight: bold;
+}
+.nav-icon{
+    color: white;
+    display: flex;
+    
+}
+.border2{
+    border: 2px solid transparent;
+}
+.border2:hover{
+    border: 1.5px solid white;
+}
+
+/* box3*/
+
+.nav-search{
+    display: flex;
+    justify-content: center;
+    border-radius: 4px; 
+}
+#search-bar{
+    height: 45px;
+    width: 800px;
+
+}
+#option{
+    background-color: #f3f3f3;
+    width:35px;
+    height:45px;
+    text-align: center;
+    
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border: none;
+
+
+}
+
+#search{
+    border:none;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 2rem;
+}
+#s{
+    color:black;
+    background-color:#febd68;
+    border-top-right-radius:0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 45px;
+    width: 40px;
+    font-size: 1.2rem;
+}
+
+/* box4*/
+.nav-account{
+    color :white;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#p3{
+    font-size: 12px;
+
+}
+#p4{
+    font-weight: bold;
+}
+.boder3{
+    border: 2px solid transparent;
+}
+
+.border3:hover{
+    border: 1.5px solid white;
+}
+/* box5*/
+.nav-return{
+    color: white;
+    height: 60px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+#r1{
+    font-size: 12px;
+}
+#r2{
+    font-weight: bold;
+}
+.border4{
+    border: 2px solid transparent;
+}
+.border4:hover{
+    border: 1.5px solid white;
+}
+/* box5*/
+.nav-cart{
+    color: white;
+    display: flex;
+    height: 60px;
+}
+#i4{
+    height: 58px;
+    width: 26px;
+
+}
+#c1{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 0.8rem;
+    padding-left: 0.1rem;
+}
+.border5{
+    border: 2px solid transparent;
+}
+.border5:hover{
+    border: 1.5px solid white;
+}
+
+/*NAV-INFO*/
+.nav-info{
+    background-color: #232f3e;
+    height: 45px;
+    width: 1515px;
+    color: white;
+    
+}
+.nav-info1{
+    height: 30px;
+    width:500px;
+    margin-left: 8px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+
+#B1{
+    border: 2px solid transparent;
+}
+#B1:hover{
+    border: 1.5px solid white;
+}
+#B1{
+    border: 2px solid transparent;
+}
+#B2:hover{
+    border: 1.5px solid white;
+}#B1{
+    border: 2px solid transparent;
+}
+#B2:hover{
+    border: 1.5px solid white;
+}#B3{
+    border: 2px solid transparent;
+}
+#B3:hover{
+    border: 1.5px solid white;
+}#B4{
+    border: 2px solid transparent;
+}
+#B4:hover{
+    border: 1.5px solid white;
+}
+#B5{
+    border: 2px solid transparent;
+}
+#B5:hover{
+    border: 1.5px solid white;
+}
+.I1{
+    border: 2px solid transparent;
+    display: flex;;
+}
+.I1:hover{
+    border: 1.5px solid white;
+}
+#pi1{
+    margin-left: 0.5rem;
+}
+
+/*backgroun image*/
+.hero-section{
+    background-image: url("1.jpg");
+    height: 400px;
+    width: 100%;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-message{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 1200.800px;
+    position: relative;
+    top: 25px;
+    font-size: 14px;
+}
+.hero-message a{
+    color:#007185;
+    text-decoration: none;
+    
+}
+
+/* shopping items*/
+
+.shopping-box1{
+    display: flex;
+    border: none;
+
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px 0px 15px 0px;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+.heading1{
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    font-size: 21px;
+    font-weight: 18.94px;
+    
+}
+.d1{
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 44px;
+
+
+}
+.product{
+    border: none;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+
+}
+#game{
+    height: 27px;
+    width: 250px;
+    font-weight: bold;
+    font-size:21px ;
+}
+.e1{
+    display: flex;
+    padding: 10px 0.5px 0px 0px;
+   
+}
+.good1{
+    background-image: url("gaming1.jpg");
+    background-size: cover;
+    background-repeat: none;
+    height: 115px;
+    width: 160px;
+    
+    
+}
+
+#headset{
+    height: 18px;
+    width: 50px;
+}
+.good2{
+    background-image: url("Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 170px;
+
+}
+.e2{
+    display: flex;
+    padding: 15px 0.5px 0px 0px;
+    
+}
+.common{
+    font-size: 12px;
+}
+
+.good3{
+    background-image: url("gaming3.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 160px;
+}
+
+
+.good4{
+    background-image: url("gaming4.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 170px;
+
+} 
+
+
+#more{
+    color: #007185;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 18px;
+
+}
+
+.e3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+}
+.good5{
+    background-image: url("FASHION1.jpg");
+    height: 115px;
+    width: 140px;
+    
+
+
+    background-size:cover;
+
+}
+.good6{
+    background-image: url("FASHION2.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good7{
+    background-image: url("FASHION3.jpg");
+    height: 115px;
+    width: 140px;
+    background-size:cover;
+}
+.good8{
+    background-image: url("FASHION4.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good9{
+    background-image: url("pc1.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 300px;
+    margin: 3px 2px 0px 2px;
+}
+.good10{
+    background-image: url("space1.jpg");
+    height: 115px;
+    width: 140px;
+    background-size:cover;
+
+}
+.good11{
+    background-image: url("spac2.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good12{
+    background-image: url("space3.jpg");
+    height: 115px;
+    width: 140px;
+    background-size:cover;
+}
+.good13{
+    background-image: url("space4.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good14{
+    background-image: url("beauty.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 300px;
+    margin: 3px 2px 0px 2px;
+}.good17{
+    background-image: url("laptop.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 300px;
+    margin: 3px 2px 0px 2px;
+}
+.good18{
+    background-image: url("level1.jpg");
+    height: 115px;
+    width: 140px;
+    
+
+
+    background-size:cover;
+
+}
+.good19{
+    background-image: url("level2.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good20{
+    background-image: url("level3.jpg");
+    height: 115px;
+    width: 140px;
+    background-size:cover;
+}
+.good21{
+    background-image: url("level4.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good22{
+    background-image: url("can1.jpg");
+    height: 115px;
+    width: 140px;
+    
+
+
+    background-size:cover;
+
+}
+.good23{
+    background-image: url("can2.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+.good24{
+    background-image: url("can3.jpg");
+    height: 115px;
+    width: 140px;
+    background-size:cover;
+}
+.good25{
+    background-image: url("can4.jpg");
+    height: 115px;
+    width: 140px;
+    margin-left: 15px;
+
+}
+
+/*sign in */
+.sign{
+    margin-top: 50px;
+    height:165px;
+    width: 1290px;
+    
+}
+button{
+    height: 28px;
+    width: 270px;
+    border-radius: 5px;
+    background-color: #ffcd4f;
+    padding: 0px 20px 0px 20px;
+    border: 0.800px solid #ffcd4f;
+
+    margin-top: 10px;
+    font-weight: bold;
+}
+.sign-1{
+    font-size: 13px;
+    margin-top: 20PX;
+}
+.new{
+    display: flex;
+    margin-top: 10px;
+}
+a{
+    font-size: 12px;
+    color: #007185;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.sign-2{
+    font-size: 12px;
+    margin-left:20px;
+
+}
+.inner{
+    
+    display: flex;
+    height: 170px;
+    width: 1520px;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.25px solid rgb(157, 157, 157);
+}
+.back{
+    background-color: #485769;
+    margin-top: 25px;
+    height: 55px;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#f1{
+    font-size: 15px;
+    color: white;
+}
+/*back2*/
+.back2{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #232f3e;
+    height: 400px;
+
+    width: 1550px;
+    
+
+
+}
+.whole{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+    padding:0px 10px 0px 10px;
+    
+
+}
+.about-1{
+    margin-left: 5px;
+}
+a{
+    color:#DDDDDD ;
+    font-size: 14px;
+    
+}
+ul{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 25px;
+   
+    list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
+}
+.boul{
+    border: 1.5px solid transparent;
+
+}
+.boul:hover{
+    border-bottom: 1.5px solid white;
+}
+.common-1{
+    margin-top: 40px;
+    
+
+}
+.blank{
+    height: 291.6px;
+    width: 100px;
+    padding: 0px 10px 0px 10px;
+
+}
+/* lang*/
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.15px solid #666464;
+    background-color: #232f3e;
+    height: 120px;
+    width: 1550px;
+}
+.fact-logo{
+    height: 80px;
+    width: 116.5px;
+    display: flex;
+    justify-content: center;
+    ;
+
+}
+.fact{
+    display: flex;
+    height:68px;
+    width: 1000px;
+    justify-content: space-evenly;
+
+
+
+}
+.image{
+    background-image: url("amazon_logo.png");
+    height: 48px;
+    width: 116.5px;
+    background-size: cover;
+    
+    
+}
+.other2{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    height: 33px;
+    width: 116.5px;
+    margin-top: 14.15px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    height: 33px;
+    width:380px;
+
+}
+.language{
+    font-size: 13px;
+    height: 18px;
+    width: 58px;
+    color: #cccc;
+
+}
+.last{
+    height: 90px;
+    width: 1550px;
+    background-color: #131a22;
+    display: inline-flex;
+align-items: center;
+
+    
+}
+.notice-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-left: 35%;
+    
+}
+.notice{
+    font-size: 12px;
+
+}
+.bor{
+    border-bottom: 0.8px solid transparent;
+}
+.bor:hover{
+    border-bottom: 0.8px solid white;
+}
+
+
+
+
+   
+
+
+
+
+
+
+
